@@ -12,7 +12,7 @@ Work in progress
 
 <!-- [![Netlify Status](https://api.netlify.com/api/v1/badges/2305d0fc-ded5-4185-bfdf-6b5167f9eaf9/deploy-status)](https://app.netlify.com/sites/kovsky-dev/deploys) -->
 
-<!-->
+<!--
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
