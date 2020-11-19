@@ -1,5 +1,6 @@
 const post = require('./src/schemas/post.json')
 const category = require('./src/schemas/category.json')
+const amazon = require('./src/schemas/amazon.json')
 
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
@@ -9,7 +10,7 @@ module.exports = {
   siteMetadata: {
     title: `Conseil piscine`,
     description: `Conseil Piscine guide.`,
-    author: `@drawmeasheep`,
+    author: `@kovskyD`,
   },
   plugins: [
     'gatsby-plugin-preact',
@@ -49,6 +50,7 @@ module.exports = {
         schemas: {
           post,
           category,
+          amazon,
         },
       },
     },

@@ -1,9 +1,10 @@
 const theme = {
   colors: {
-    main: '#0c0c0c',
-    primary: '#230066',
-    separator: '#d5dae3',
-    lilac: '#8024ff',
+    main: '#1f1f1f',
+    primary: '#1f425d', // Indigo
+    secondary: '#1f425d', // Pacific blue
+    tertiary: '#1f425d', // Pacific blue
+    quaternary: '#F45B69', // Rose
   },
   bg: {
     main: '#FFF',

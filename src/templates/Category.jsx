@@ -3,12 +3,12 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import SEO from '../components/seo'
 
-const Category = ({ data: { prismicCategory } }) => (
+const Category = ({ data }) => (
   <>
-    <SEO
+    {/* <SEO
       title={prismicCategory.data.meta_title}
       description={prismicCategory.data.meta_description}
-    />
+    /> */}
     Lorem
     {/* <CategoryContent
       allPrismicPost={allPrismicPost.edges}

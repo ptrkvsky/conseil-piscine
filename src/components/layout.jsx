@@ -3,19 +3,28 @@ import PropTypes from 'prop-types'
 
 import Header from './header'
 import './layout.css'
+import '../styles/normalize.css'
 import GlobalStyle from '../styles/Global'
 
+import { MainGrid, Main, Footer } from '../styles/common/layout'
+
 const Layout = ({ children }) => (
-  <>
-    <Header />
+  <MainGrid>
     <GlobalStyle />
-    <main>{children}</main>
-    <footer>
-      © {new Date().getFullYear()}, Built with
-      {` `}
-      <a href="https://www.gatsbyjs.org">Gatsby</a>
-    </footer>
-  </>
+    <Main>{children}</Main>
+    <Header />
+    <Footer>
+      © {new Date().getFullYear()}, Site internet réalisé par Johan Petrikovsky
+      -{' '}
+      <a
+        target="_blank"
+        rel="noreferrer"
+        href="https://www.developpeur-web.tech"
+      >
+        Développeur Web freelance à Toulouse
+      </a>
+    </Footer>
+  </MainGrid>
 )
 
 Layout.propTypes = {
